@@ -4,6 +4,6 @@
 
 <p align="center">
   <a href="https://github.com/lucas-quirino/flex-projeto-dio">
-    <img src="img/flex-projeto-readme.png" alt="Flex projeto"/>
+    <img src="img/flex-readme.png" alt="Flex projeto"/>
   </a>
 </p>
