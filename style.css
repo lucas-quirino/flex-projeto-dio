@@ -1,29 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
-ul{
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
 }
 
-a{
+a {
     color: inherit;
 }
 
-div img{
+div img {
     display: block;
     width: 100%;
 }
 
-.container{
+.container {
     display: flex;
     max-width: 900px;
     margin: auto;
@@ -32,7 +32,7 @@ div img{
     padding: 10px 15px;
 }
 
-header{
+header {
     background-color: #122A57;
     height: 100px;
     max-width: 100%;
@@ -41,12 +41,12 @@ header{
     color: white;
 }
 
-.menu-list{
+.menu-list {
     color: white;
     font-size: 14px;
 }
 
-header .menu-list{
+header .menu-list {
     display: flex;
     width: 100%;
     max-width: 260px;
@@ -54,13 +54,13 @@ header .menu-list{
     align-items: center;
 }
 
-header .menu{
+header .menu {
     justify-content: space-between;
     align-content: center;
     width: 750px;
 }
 
-.apresentation{
+.apresentation {
     justify-content: space-around;
     align-items: center;
     display: flex;
@@ -68,25 +68,25 @@ header .menu{
     padding-top: 50px;
 }
 
-.apresentation .apresentation-text{
+.apresentation .apresentation-text {
     margin-left: 80px;
 }
 
-.apresentation img{
+.apresentation img {
     width: 380px;
     margin-right: 20px;
 }
 
-.apresentation-text{
+.apresentation-text {
     color: #122A57;
     text-align: left;
 }
 
-.apresentation-text h1{
+.apresentation-text h1 {
 font-size: 40px;
 }
 
-.btn{
+.btn {
     background-color: #122A57;
     color: white;
     text-align: center;
@@ -103,7 +103,7 @@ font-size: 40px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-#about-us{
+#about-us {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
@@ -112,7 +112,7 @@ font-size: 40px;
     max-width: 750px;
 }
 
-#about-us h2{
+#about-us h2 {
     font-size: 32px;
     color: #122A57;
     display: flex;
@@ -120,20 +120,20 @@ font-size: 40px;
     margin-bottom: 25px;
 }
 
-#about-us p{
+#about-us p {
     margin-bottom: 14px;
     font-size: 12px;
     text-align: left;
     color: #122A57;
 }
 
-#about-us img{
+#about-us img {
     width: 350px;
     margin-right: 50px;
 }
 
 /* adicionando um pseudo-elemento, em barra */
-#about-us h2::before{
+#about-us h2::before {
     content: "";
     height: 36px;
     width: 5px;
@@ -142,11 +142,11 @@ font-size: 40px;
     margin-right: 10px;
 }
 
-.container-service{
+.container-service {
     background-color: #122A57;
 }
 
-#service{
+#service {
     flex-direction: column;
     display: flex;
     padding: 30px 0 50px 0;
@@ -165,12 +165,12 @@ font-size: 40px;
     text-align: center;
 }
 
-#service img{
+#service img {
     padding-bottom: 20px;
     width: 120px;
 }
 
-.list-service a{
+.list-service a {
    background-color: white;
    color: #122A57;
    border-radius: 30px;
@@ -187,20 +187,20 @@ font-size: 40px;
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-#plans{
+#plans {
     flex-direction: column;
     height: 500px;
     max-width: 780px;
     padding: 60px;
 }
 
-.plans{
+.plans {
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
 
-.item-plan{
+.item-plan {
     padding: 30px 20px 10px 20px;
     border: 4px solid #122A57;
     margin: 25px;
@@ -208,7 +208,7 @@ font-size: 40px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
 }
 
-.item-plan h3{
+.item-plan h3 {
     font-size: 24px;
     display: flex;
     flex-direction: column;
@@ -216,7 +216,7 @@ font-size: 40px;
 }
 
 /* adicionando um pseudo-elemento, em barra */
-.item-plan h3::after{
+.item-plan h3::after {
     content: "";
     background-color: #122A57;
     width: 100%;
@@ -225,24 +225,24 @@ font-size: 40px;
     margin: 10px 0 30px 0px;
 }
 
-.item-plan a{
+.item-plan a {
     align-self: center;
 }
 
-.item-plan ul{
+.item-plan ul {
     display: flex;
     flex-direction: column;
     font-size: 13px;
 }
 
-.item-plan ul li{
+.item-plan ul li {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     line-height: 180%;
 }
 
-.item-plan ul li::before{
+.item-plan ul li::before {
     content: "";
     width: 7px;
     height: 7px;
@@ -251,13 +251,13 @@ font-size: 40px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 3px;
 }
 
-footer .footer{
+footer .footer {
 
     justify-content: space-between;
     font-size: 12px;
 }
 
-footer{
+footer {
     background-color: #122A57;
     color: white;
     height: 80px;
@@ -266,22 +266,22 @@ footer{
 }
 
 /* mobile */
-@media(max-width: 750px){
+@media(max-width: 750px) {
     .container{
         flex-direction: column;
         padding: 20px;
         align-content: center;
     }
 
-    .apresentation{
+    .apresentation {
         flex-direction: column-reverse;
     }
 
-    .apresentation .apresentation-text{
+    .apresentation .apresentation-text {
         width: 100%;
     }
 
-    .apresentation img{
+    .apresentation img {
         width: 250px;
         display: flex;
         max-width: 100%;
@@ -293,42 +293,43 @@ footer{
         padding-bottom: 50px;
     }
 
-    #about-us{
+    #about-us {
         flex-direction: column-reverse;
         max-width: 150px;
         padding-right: 100px;
     }
 
-    #about-us img{
+    #about-us img {
         width: 250px;
         max-width: 100%;
         margin: auto;
         padding-right: 120px;
     }
 
-    .list-service{
+    .list-service {
         flex-direction: column;
         text-align: justify;
     }
 
-    #service .list-service{
+    #service .list-service {
         max-height: 900px;
     }
 
-    #service img{
+    #service img {
         width: 80px;
         padding-left: 18px;
     }
 
-    #service a{
+    #service a {
         width: 23%;
     }
 
-    .plans{
+    .plans {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    #plans{
+    #plans {
         height: 1200px;
     }
+}
