@@ -1,9 +1,21 @@
-<h1 align="center">Projeto prático utilizando FlexBox. <h2>
+# Making a single page design CSS FlexBox
+## Hello guys!
 
-<h4 align="left">- Projeto prático para os Bootcamps da Digital Innovation One - DIO para o curso  "Posicionando elementos com Flexbox em CSS - Desafio integrador".</h3>
+In this activity some concepts of FlexBox, positioning, spacing, flex-items and flex-container were trained.
+
+</br>
+
+The technologies worked were:
+
+</br>
+
+* HTML5
+* CSS 3
+* CSS FlexBox
+* Git/GitHub
+
+</br>
 
 <p align="center">
-  <a href="https://github.com/lucas-quirino/flex-projeto-dio">
-    <img src="img/flex-readme.png" alt="Flex projeto"/>
-  </a>
+<img src="assets/img/flex-readme.png" alt="Flex projeto"/>
 </p>
